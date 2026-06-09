@@ -1,0 +1,138 @@
+/*
+ * UW Purple & Gold theme override for the hackweek splash page.
+ * Loaded after theme.css and main.css to take precedence.
+ *
+ * Source tokens from book/_static/colors_and_type.css:
+ *   --uw-spirit-purple:  #4b2e83   (replaces primary blue  #098dcf)
+ *   --uw-husky-purple:   #32006e   (replaces dark bg        #141c25)
+ *   --uw-husky-gold:     #b7a57a   (replaces secondary red  #EC645E)
+ *   --uw-heritage-gold:  #85754d   (hover/active gold)
+ *   --uw-husky-gold-web: #e8e3d3   (replaces light bg       #f0f6fa)
+ */
+
+/* ── Bootstrap CSS custom properties ─────────────────────────────────────── */
+:root {
+    --bs-primary:   #4b2e83;
+    --bs-secondary: #b7a57a;
+    --bs-dark:      #32006e;
+}
+
+/* ── Background utility classes ───────────────────────────────────────────── */
+.theme-bg-primary { background: #4b2e83 !important; }
+.theme-bg-dark    { background: #32006e !important; }
+.theme-bg-light   { background: #e8e3d3 !important; }
+
+/* Carousel fallback background */
+.hero-carousel .carousel-item { background-color: #32006e; }
+
+/* ── Primary button (purple) ──────────────────────────────────────────────── */
+.btn-primary,
+.btn-primary:disabled,
+.btn-primary.disabled {
+    background:    #4b2e83;
+    border-color:  #4b2e83;
+    color:         #fff;
+    text-decoration: none;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-check:active + .btn-primary,
+.btn-primary.active,
+.show > .btn-primary.dropdown-toggle {
+    background:   #32006e;
+    border-color: #32006e;
+    color:        #fff;
+    box-shadow:   none;
+    text-decoration: none;
+}
+.btn-primary:focus,
+.btn-check:active + .btn-primary:focus,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.25rem rgba(75, 46, 131, 0.5);
+}
+
+/* ── Secondary button (gold) ──────────────────────────────────────────────── */
+.btn-secondary,
+.btn-secondary:disabled,
+.btn-secondary.disabled {
+    background:    #b7a57a;
+    border-color:  #b7a57a;
+    color:         #fff;
+    text-decoration: none;
+}
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary:active,
+.btn-check:active + .btn-secondary,
+.btn-secondary.active,
+.show > .btn-secondary.dropdown-toggle,
+.btn-secondary:not(:disabled):not(.disabled):active:focus {
+    background:   #85754d;
+    border-color: #85754d;
+    color:        #fff;
+    box-shadow:   none;
+    text-decoration: none;
+}
+.btn-secondary:focus,
+.btn-check:active + .btn-secondary:focus,
+.btn-secondary:active:focus,
+.btn-secondary.active:focus,
+.show > .btn-secondary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.25rem rgba(183, 165, 122, 0.5);
+}
+
+/* ── Nav apply button (kelly green) — overrides gold only in .navbar-btn ──── */
+.navbar-btn .btn-secondary,
+.navbar-btn .btn-secondary:disabled,
+.navbar-btn .btn-secondary.disabled {
+    background:   #2e7d12;
+    border-color: #2e7d12;
+    color:        #fff;
+    text-decoration: none;
+}
+.navbar-btn .btn-secondary:hover,
+.navbar-btn .btn-secondary:focus,
+.navbar-btn .btn-secondary:active,
+.navbar-btn .btn-secondary.active,
+.show > .navbar-btn .btn-secondary.dropdown-toggle {
+    background:   #1a4709;
+    border-color: #1a4709;
+    color:        #fff;
+    box-shadow:   none;
+    text-decoration: none;
+}
+.navbar-btn .btn-secondary:focus,
+.navbar-btn .btn-secondary:active:focus,
+.navbar-btn .btn-secondary.active:focus {
+    box-shadow: 0 0 0 0.25rem rgba(46, 125, 18, 0.5);
+}
+
+/* ── Links ────────────────────────────────────────────────────────────────── */
+.theme-link:hover {
+    color: #4b2e83;
+    -webkit-text-decoration-color: rgba(75, 46, 131, 0.8);
+            text-decoration-color: rgba(75, 46, 131, 0.8);
+}
+
+/* ── Nav active / hover highlight ─────────────────────────────────────────── */
+.nav-link:hover,
+.nav-link:focus,
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    color: #b7a57a;
+}
+
+/* ── Schedule tab pills ───────────────────────────────────────────────────── */
+.schedule-nav .nav-link.active {
+    background-color: #4b2e83;
+    color: #fff;
+}
+.schedule-nav .nav-link:hover {
+    color: #4b2e83;
+}
+
+/* ── Footer heart icon (gold instead of red) ──────────────────────────────── */
+.footer .fa-heart { color: #b7a57a; }

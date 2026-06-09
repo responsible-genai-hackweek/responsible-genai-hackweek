@@ -1,32 +1,56 @@
 repo_directory: html
-name: Responsible AI for NASA Earth Science
+name: Responsible Gen-AI for NASA Earthdata
 apply:
   url: '#'
-  title: Application coming soon
+  title: Applications Open Soon
+  style: btn-success
 banner:
-  description: An awesome learning event.
-  start_date: XX Month
-  end_date: XX Month
-  year: 2022
+  description: A guided journey through the AI research lifecycle
+  start_date: 24 August
+  end_date: 28 August
+  year: 2026
   location: Seattle, WA
   links:
-  - url: intro.html
-    title: Event Jupyter Book
-    new_window: false
+   - url: intro.html
+     title: Event Jupyterbook
+     new_window: false
   image: https://geohackweek.github.io/assets/images/banner.jpg
 # The opening session of the event with UTC offset
-event_countdown: "2024-08-07T08:30:00-07:00"
+event_countdown: "2026-08-24T08:30:00-07:00"
 about:
-  description: Hackweeks are participant-driven events that strive to create
-    welcoming spaces for participants to learn new things, build community and
-    gain hands-on experience with collaboration and team science
+  description: Join us for a week of hands-on learning on best practices for 
+               using Generative AI (gen AI) for NASA Earthdata scientific 
+               workflows. 
+  overview:
+    - label: "Who should apply?"
+      bullets:
+        - Open to participants working in earth science-related disciplines
+        - "This initial hackweek will focus on active development of gen AI
+           tools and workflows, and on building capacity for future training
+           and workshops. Applications will be by invitation only."
+    - label: "Prerequisites:"
+      bullets:
+        - Programming experience in a scripting language such as Python or R.
+        - Some experience using generative AI tools.
+    - label: "Key Dates:"
+      bullets:
+        - "Application Deadline: ?, 11:59 pm PDT"
+        - "Notification Date: ?, 2026"
   learn_more: https://escience.washington.edu/using-data-science/hackweeks
   links:
     - url: '#'
       title: A sample link
       new_window: True
-applicant_info: UW Hackweek 2022 will take place in October 2022 (virtual or in-person
-  TBD). Applications have not yet opened, but should be anticipated in September 2022.
+projects:
+  description: >-
+    projects general description
+  learn_more: 'projects/index.html'
+tutorials:
+  description: >-
+    Tutorials general description
+  learn_more: 'tutorials/index.html'
+applicant_info: Still have questions? Visit our FAQ page for 
+  additional details!
 team:
   !include team/team.yaml
 schedule:
@@ -40,7 +64,7 @@ sponsors:
 footer:
   social:
   - icon: github
-    link: https://github.com/uwhackweek/
+    link: https://github.com/uwescience/ai-in-practice
 _copy_without_render:
 - assets
 _extensions:

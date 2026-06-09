@@ -21,6 +21,8 @@
     <!-- Theme CSS -->
     <link id="theme-style" rel="stylesheet" href="assets/css/theme.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    <!-- UW Purple & Gold color overrides -->
+    <link rel="stylesheet" href="assets/css/uw-theme-override.css">
 
     <style>
         .hero-carousel .carousel-item-1 {
@@ -72,13 +74,23 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link scrollto" href="#team">
-                                Team
+                            <a class="nav-link scrollto" href="#tutorials-section">
+                                Tutorials
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scrollto" href="#projects-section">
+                                Projects
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link scrollto" href="#schedule">
                                 Schedule
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scrollto" href="#team">
+                                Team
                             </a>
                         </li>
                         <li class="nav-item">
@@ -139,7 +151,7 @@
 </div>
 <!--//hero-block-->
 
-<section id="about-section" class="about-section section theme-bg-light">
+<section id="about-section" class="about-section section theme-bg-light pb-5">
     <div class="container">
         <h3 class="section-heading text-center mb-3">
             About {{ cookiecutter.name }}
@@ -147,65 +159,88 @@
         <div class="section-intro single-col-max mx-auto mb-3">
             {{ cookiecutter.about.description }}
         </div>
-        <div class="about-cta text-center mb-4">
-            <a class="btn btn-secondary btn-lg"
-               href="{{ cookiecutter.about.learn_more }}"
-               target="_blank">
-                Learn about "Hackweeks"
-                <i class="fas fa-external-link-alt"></i>
-            </a>
-        </div>
-
-        {%- if 'links' in cookiecutter.about %}
-            <div class="hero-cta text-center mb-4">
-                <h4 class="mb-3 text-center">
-                    Past Events:
-                </h4>
-                {%- for link in cookiecutter.about.links %}
-                    <a class="btn btn-primary btn-lg mb-3 mx-2"
-                       href="{{ link.url }}"
-                        {{ 'target="_blank"' if link.new_window == 'True' else '' }}
-                    >
-                        {{ link.title }}
-                    </a>
+        {%- if cookiecutter.about.overview %}
+        <div class="section-intro single-col-max mx-auto mb-5">
+            {%- for group in cookiecutter.about.overview %}
+            <p><strong>{{ group.label }}</strong></p>
+            <ul>
+                {%- for item in group.bullets %}
+                <li>{{ item }}</li>
                 {%- endfor %}
-            </div>
+            </ul>
+            {%- endfor %}
+        </div>
         {%- endif %}
 
-        <div id="countdown-intro" class="event-countdown text-center mb-4">
-            <h4 class="countdown-intro mb-2 text-center">
-                {{ cookiecutter.banner.year }} Event Starts In:
-            </h4>
-            <div id="countdown-box"
-                 class="countdown-box"
-                 data-start-date="{{ cookiecutter.event_countdown }}">
-                {% for unit in ['days', 'hours', 'minutes', 'seconds'] %}
-                <span class="{{ unit }}">
-                    <span class="number"></span>
-                    <span class="unit">{{ unit.capitalize() }}</span>
-                </span>
-                {% endfor %}
-            </div>
-        </div>
-    </div>
-
-    <div class="media-block theme-bg-primary py-5">
-        <div class="container">
-            <h4 class="text-white text-center mb-3">
-                Information for Applicants
-            </h4>
-            <div
-                class="section-intro text-center single-col-max mx-auto text-white mb-3">
-                {{cookiecutter.applicant_info}}
-            </div>
-        </div>
     </div>
 </section>
 <!--//about-section-->
 
+{%- if cookiecutter.tutorials %}
+<section id="tutorials-section" class="tutorials-section section">
+    <div class="container">
+        <h3 class="section-heading text-center mb-5">Tutorials</h3>
+        <div class="row align-items-center gx-5">
+            <div class="col-12 col-md-5 mb-4 mb-md-0 text-center">
+                <img src="assets/images/tutorials-photo.png"
+                     alt="Tutorials"
+                     class="img-fluid rounded shadow">
+            </div>
+            <div class="col-12 col-md-7">
+                <p class="section-intro">
+                    {{ cookiecutter.tutorials.description }}
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--//container-->
+</section>
+<!--//tutorials-section-->
+{%- endif %}
+
+{%- if cookiecutter.projects %}
+<section id="projects-section" class="projects-section section theme-bg-light">
+    <div class="container">
+        <h3 class="section-heading text-center mb-5">Projects</h3>
+        <div class="row align-items-center gx-5">
+            <div class="col-12 col-md-7 mb-4 mb-md-0">
+                <p class="section-intro">
+                    {{ cookiecutter.projects.description }}
+                </p>
+            </div>
+            <div class="col-12 col-md-5 text-center">
+                <img src="assets/images/projects-photo.png"
+                     alt="Projects"
+                     class="img-fluid rounded shadow">
+            </div>
+        </div>
+    </div>
+    <!--//container-->
+</section>
+<!--//projects-section-->
+{%- endif %}
+
+<div class="media-block theme-bg-primary py-5">
+    <div class="container">
+        <h4 class="text-white text-center mb-3">
+            More Information
+        </h4>
+        <div
+            class="section-intro text-center single-col-max mx-auto text-white mb-3">
+            {{cookiecutter.applicant_info}}
+        </div>
+        <div class="text-center mt-3">
+            <a class="btn btn-secondary" href="reference/questions.html">Frequently Asked Questions</a>
+        </div>
+    </div>
+</div>
+
 {%- if cookiecutter.schedule %}
 <section id="schedule" class="schedule-section section">
     <div class="container">
+        {%- if cookiecutter.schedule.schedule_style == "overview" %}
+        <h3 class="section-heading text-center mb-5">Tentative Schedule</h3>
+        {%- else %}
         <h3 class="section-heading text-center mb-1">Schedule</h3>
         <h4 class="text-center mb-5">
             All times listed below are {{ cookiecutter.schedule.timezone }}.
@@ -214,10 +249,82 @@
                 Time Zone Map
             </a>
             to figure out times in your location.</h4>
+        {%- endif %}
+        {%- if cookiecutter.schedule.schedule_style == "overview" %}
+        {# ── OVERVIEW TABLE ────────────────────────────────────────────────── #}
+        <div class="table-responsive">
+        <table class="table table-bordered text-center align-top" style="table-layout:fixed;">
+            <thead>
+                <tr>
+                    <th style="width:12%; background:#4b2e83; color:#fff;"></th>
+                    <th style="background:#4b2e83; color:#fff;">Monday (Aug 24)</th>
+                    <th style="background:#4b2e83; color:#fff;">Tuesday (Aug 25)</th>
+                    <th style="background:#4b2e83; color:#fff;">Wednesday (Aug 26)</th>
+                    <th style="background:#4b2e83; color:#fff;">Thursday (Aug 27)</th>
+                    <th style="background:#4b2e83; color:#fff;">Friday (Aug 28)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="background:#f0ebf8;">
+                    <td class="fw-bold align-middle" style="color:#4b2e83;">Tutorials</td>
+                    <td class="text-start">
+                        <ul class="mb-0 ps-3">
+                            <li>Introduction to the gen AI Landscape</li>
+                            <li>Overview of coding agents</li>
+                            <li>Core agent features</li>
+                        </ul>
+                    </td>
+                    <td class="text-start">
+                        <ul class="mb-0 ps-3">
+                            <li>Tutorial 2</li>
+                        </ul>
+                    </td>
+                    <td class="text-start">
+                        <ul class="mb-0 ps-3">
+                            <li>Tutorial 3</li>
+                        </ul>
+                    </td>
+                    <td class="text-start">
+                        <ul class="mb-0 ps-3">
+                            <li>Tutorial 4</li>
+                        </ul>
+                    </td>
+                    <td class="text-muted fst-italic align-middle">No tutorials</td>
+                </tr>
+                <tr style="background:#faf8f3;">
+                    <td class="fw-bold align-middle" style="color:#85754d;">Project Work</td>
+                    <td class="text-muted fst-italic align-middle">Project scoping and consulting (3 hours)</td>
+                    <td class="text-start">
+                        <ul class="mb-0 ps-3">
+                            <li>Project work (4 hours)</li>
+                        </ul>
+                    </td>
+                    <td class="text-start">
+                        <ul class="mb-0 ps-3">
+                            <li>Project work (4 hours)</li>
+                        </ul>
+                    </td>
+                    <td class="text-start">
+                        <ul class="mb-0 ps-3">
+                            <li>Project work (5 hours)</li>
+                        </ul>
+                    </td>
+                    <td class="text-start">
+                        <ul class="mb-0 ps-3">
+                            <li>Project work (4 hours)</li>
+                            <li>Project sharing (2 hours)</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+
+        {%- else %}
+        {# ── TABS (day-by-day detail from schedule.yaml) ───────────────────── #}
         {%- if cookiecutter.schedule["tabs"] %}
         <!-- Nav tabs -->
-        <ul class="schedule-nav nav nav-pills nav-fill" id="myTab"
-            role="tablist">
+        <ul class="schedule-nav nav nav-pills nav-fill" id="myTab" role="tablist">
             {% for tab in cookiecutter.schedule["tabs"] %}
             {%- set link_class = '' %}
             {%- set link_state = 'false' %}
@@ -272,23 +379,15 @@
                 {%- for content in tab['contents'] %}
                 <div class="item item-talk">
                     <div class="meta">
-                        <h4 class="time mb-3">
-                            {{ content['time'] }}
-                        </h4>
+                        <h4 class="time mb-3">{{ content['time'] }}</h4>
                     </div>
-
                     <div class="content">
-                        <h3 class="title mb-3">
-                            {{ content['title'] }}
-                        </h3>
-
+                        <h3 class="title mb-3">{{ content['title'] }}</h3>
                         {% if 'location' in content %}
-                        <div class="location mb-3"><i
-                            class="fas fa-map-marker-alt me-2"></i>
-                            {{ content['location'] }}
+                        <div class="location mb-3">
+                            <i class="fas fa-map-marker-alt me-2"></i>{{ content['location'] }}
                         </div>
                         {% endif %}
-
                         <div class="desc">
                             {% if 'description' in content and content['description'] is not none %}
                             {%- markdown -%}
@@ -308,9 +407,7 @@
                                 <a class="theme-link"
                                    href="#{{modal_key}}"
                                    data-bs-toggle="modal"
-                                   data-bs-target="#{{modal_key}}">
-                                    {{ lead }}
-                                </a>
+                                   data-bs-target="#{{modal_key}}">{{ lead }}</a>
                             </div>
                             {%- else %}
                             <div class="name">{{ lead }}</div>
@@ -324,10 +421,7 @@
                             <ul>
                                 {%- for resource in content['resources'] %}
                                 <li>
-                                    <a href="{{resource['url']}}"
-                                       target="_blank">
-                                        {{resource['title']}}
-                                    </a>
+                                    <a href="{{resource['url']}}" target="_blank">{{resource['title']}}</a>
                                 </li>
                                 {%- endfor %}
                             </ul>
@@ -343,6 +437,7 @@
             {% endfor %}
         </div>
         <!--//schedule-tab-content-->
+        {%- endif %}
         {%- endif %}
     </div>
     <!--//container-->
