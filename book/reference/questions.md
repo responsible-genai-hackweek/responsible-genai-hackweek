@@ -16,7 +16,7 @@ analysis.
 
 :::{dropdown} Q: I have never used LLMs for research. Is hackweek right for me? 
 
-**A:** This workshop is designed for participants who have some experience using LLMs for some component of scientific work. This can include chat-based inquiry and code development, or more fully orchestrated agentic workflows. If you have never used LLMs in this capacity, we encourage you to wait for a future hackweek where we will be offering tutorials at the beginner level. 
+**A:** This workshop is designed for participants who have some experience using LLMs for some component of scientific work. This can include chat-based inquiry and code development, or more fully orchestrated agentic workflows. If you have never used LLMs in this capacity, we encourage you to wait for a future hackweek where we will be offering tutorials that cover LLM fundamentals. 
 :::
 
 :::{dropdown} Q: I currently do not have an account for an LLM service. Will this be provided? 
@@ -29,12 +29,12 @@ analysis.
 **A:** Our provisioned LLMs will include both open and commercial models. Our goal is to position you to build toolkits that are agnostic to the LLM application. Along the way we will discuss the pros and cons of open versus closed models.  
 :::
 
-:::{dropdown} Q: I'm concerned about the impact of AI on the progression of scientific research. Will you be addressing this topic? 
+:::{dropdown} Q: It's important to me that AI gets used carefully for scientific research. Will you be addressing this topic? 
 
-**A:** We share your concern about the potential challenges of adopting AI for scientific research. In fact, this is a key motivation for the content of this hackweek wherein we focus on topics of reproducibility, robustness and security. We hope to work together with you in shaping how scientists can explore potential uses of this tool going forward.    
+**A:** Yes, in fact this is a core motivation for our hackweek. We are coming together to explore how gen-AI can support scientific progress by focusing on topics of reproducibility, robustness and security. We hope to work together with you in shaping how scientists can explore potential uses of this tool going forward.    
 :::
 
 :::{dropdown} Q: Am I required to participate in all tutorials and activities?
 
-**A:** Yes, participation is mandatory for all days that you have signed up for. We expect all participants to be actively engaged in all workshop activities. In the event of an emergency, please let the organizers know as soon as possible so we can help you stay on track.
+**A:** Yes, participation is mandatory for all days that you have signed up for. We expect all participants to be actively engaged in all workshop activities. 
 :::
