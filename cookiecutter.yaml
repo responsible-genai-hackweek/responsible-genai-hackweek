@@ -20,13 +20,14 @@ event_countdown: "2026-08-24T08:30:00-07:00"
 about:
   description: Join us for a week of hands-on learning on best practices for 
                using generative Artificial Intelligence (gen AI) for NASA 
-               Earthdata scientific workflows. 
+               Earth data production and services. 
   overview:
     - label: "Who should apply?"
       bullets:
-        - Open to faculty, students, research staff and industry partners 
-          working on advancing gen AI tools for earth science-related 
-          disciplines.
+        - Open to faculty, students, research staff, agency data 
+          software/systems engineers, data security/IT governance 
+          specialists, and industry partners working on advancing gen AI 
+          tools for Earth science-related disciplines.
     - label: "Prerequisites:"
       bullets:
         - Programming experience in a scripting language such as Python or R.
