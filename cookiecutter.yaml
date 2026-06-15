@@ -1,7 +1,7 @@
 repo_directory: html
 name: Responsible Gen-AI for NASA Earthdata
 apply:
-  url: '#'
+  # url: 
   title: Applications Open Soon
   style: btn-success
 banner:
