@@ -1,7 +1,7 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: AI in Practice Summer Institute
+title: Responsible Gen-AI for NASA Earthdata
 author: eScience Institute, University of Washington
 logo: logo.png
 only_build_toc_files: true
@@ -10,11 +10,11 @@ parse:
   # https://jupyterbook.org/content/content-blocks.html?highlight=myst%20substitution#define-substitutions-for-your-whole-book
   # https://jupyterbook.org/content/content-blocks.html#using-substitutions-in-links
   myst_substitutions:
-    hackweek: "AI in Practice Summer Institute"
-    dates: "July 27-31, 2026"
-    github_org_url: "https://github.com/uwescience"
+    hackweek: "Responsible Gen-AI for NASA Earthdata"
+    dates: "August 24-28, 2026"
+    github_org_url: "https://github.com/responsible-genai-hackweek"
     book_repo: "jupyterbook-template"
-    website_url: "https://ai-in-practice.uwescience.org/"
+    website_url: "https://responsible-genai.hackweek.io/"
     jupyterhub_url: "https://INSERT_JUPYTERHUB_URL"
     slack_workspace_url: "https://INSERT_SLACK_URL"
     contact_email: "INSERT_CONTACT_EMAIL@UW.COM"
