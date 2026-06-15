@@ -2,7 +2,7 @@
 
 :::{dropdown} Q: Do I need to know Python to participate? 
 
-**A:** Since the tutorials will be in Python, we recommend participants to get acquainted with Python syntax, so that they are able to follow the content. We recommend reviewing this introductory [Python programming lesson](https://swcarpentry.github.io/python-novice-gapminder/) before the workshop. You are welcome to use any programming language for project work but that would require finding suitable ML libraries.
+**A:** Since the tutorials will be in Python, we recommend participants have some familiarity with Python syntax so that they are able to follow the content. We recommend reviewing this introductory [Python programming lesson](https://swcarpentry.github.io/python-novice-gapminder/) before the workshop. You are welcome to use any programming language for project work.
 :::
 
 :::{dropdown} Q: I want to learn to use PyTorch to analyze my data. Is this hackweek right for me?
