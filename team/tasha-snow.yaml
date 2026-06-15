@@ -1,0 +1,18 @@
+- title: Tasha Snow
+  avatar: https://avatars.githubusercontent.com/u/12904976?v=4
+  role: Assistant Research Scientist
+  organizations:
+    - name: NASA Goddard Space Flight Center
+  bio: My work aims to improve our understanding of glacier and ocean interactions in Greenland and Antarctica. A lot of my work focuses on building new applications and improving existing ones for remote sensing in polar regions, especially for thermal infrared (heat) imagery. I am a Co-Founder and Lead Scientist for the CryoCloud cloud-computing community and platform, and help to advance scientific capabilities in open-source software development and open science.
+  expertise:
+    - remote sensing
+    - ice-ocean interaction
+    - machine learning
+    - open science
+    - cloud-computing
+  social:
+    - icon: github
+      icon_pack: fab
+      link: https://github.com/tsnow03
+  user_groups:
+    - Lead Hackweek Organizer
