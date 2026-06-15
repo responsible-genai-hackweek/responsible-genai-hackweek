@@ -18,7 +18,7 @@ banner:
 # The opening session of the event with UTC offset
 event_countdown: "2026-08-24T08:30:00-07:00"
 about:
-  description: Join us for a week of hands-on learning on best practices for 
+  description: Join us for a week of hands-on learning of best practices for 
                using generative Artificial Intelligence (gen AI) for NASA 
                Earth data production and services. 
   overview:
@@ -30,12 +30,12 @@ about:
           tools for Earth science-related disciplines.
     - label: "Prerequisites:"
       bullets:
-        - Programming experience in a scripting language such as Python or R.
+        - Programming experience in Python.
         - Some experience using generative AI tools for science.
-    - label: "Key Dates:"
-      bullets:
-        - "Application Deadline: ?, 11:59 pm PDT"
-        - "Notification Date: ?, 2026"
+    # - label: "Key Dates:"
+    #  bullets:
+    #    - "Application Deadline: ?, 11:59 pm PDT"
+    #    - "Notification Date: ?, 2026"
   learn_more: https://escience.washington.edu/using-data-science/hackweeks
   links:
     - url: '#'
@@ -48,9 +48,9 @@ projects:
     href="https://www.earthdata.nasa.gov/about/ai-strategy">NASA Earth Science
     Data Systems AI Strategy</a>. We anticipate a blend of projects that 
     address data access and provenance, research best practices ensuring robust 
-    and reproducible science, and security and governance. Projects that reach 
-    maturity during the hackweek will continue to receive support after 
-    the event.
+    and reproducible science, and security and governance. Projects that 
+    reach maturity during the hackweek will be supported by follow-on virtual 
+    working sessions to refine prototypes and complete documentation.  
   learn_more: 'projects/index.html'
 tutorials:
   description: >-
