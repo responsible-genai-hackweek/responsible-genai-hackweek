@@ -1,11 +1,11 @@
 repo_directory: html
 name: Responsible Gen-AI for NASA Earthdata
 apply:
-  url: '#'
+  # url: 
   title: Applications Open Soon
   style: btn-success
 banner:
-  description: A guided journey through the AI research lifecycle
+  description: Reproducible, Secure and Robust generative AI
   start_date: 24 August
   end_date: 28 August
   year: 2026
@@ -18,24 +18,24 @@ banner:
 # The opening session of the event with UTC offset
 event_countdown: "2026-08-24T08:30:00-07:00"
 about:
-  description: Join us for a week of hands-on learning on best practices for 
-               using Generative AI (gen AI) for NASA Earthdata scientific 
-               workflows. 
+  description: Join us for a week of hands-on learning of best practices for 
+               using generative Artificial Intelligence (gen AI) for NASA 
+               Earth data production and services. 
   overview:
     - label: "Who should apply?"
       bullets:
-        - Open to participants working in earth science-related disciplines
-        - "This initial hackweek will focus on active development of gen AI
-           tools and workflows, and on building capacity for future training
-           and workshops. Applications will be by invitation only."
+        - Open to faculty, students, research staff, agency data 
+          software/systems engineers, data security/IT governance 
+          specialists, and industry partners working on advancing gen AI 
+          tools for Earth science-related disciplines.
     - label: "Prerequisites:"
       bullets:
-        - Programming experience in a scripting language such as Python or R.
-        - Some experience using generative AI tools.
-    - label: "Key Dates:"
-      bullets:
-        - "Application Deadline: ?, 11:59 pm PDT"
-        - "Notification Date: ?, 2026"
+        - Programming experience in Python.
+        - Some experience using generative AI tools for science.
+    # - label: "Key Dates:"
+    #  bullets:
+    #    - "Application Deadline: ?, 11:59 pm PDT"
+    #    - "Notification Date: ?, 2026"
   learn_more: https://escience.washington.edu/using-data-science/hackweeks
   links:
     - url: '#'
@@ -43,11 +43,25 @@ about:
       new_window: True
 projects:
   description: >-
-    projects general description
+    Participants are expected to actively participate in co-designing project
+    ideas that address one or more of the components of the <a 
+    href="https://www.earthdata.nasa.gov/about/ai-strategy">NASA Earth Science
+    Data Systems AI Strategy</a>. We anticipate a blend of projects that 
+    address data access and provenance, research best practices ensuring robust 
+    and reproducible science, and security and governance. Projects that 
+    reach maturity during the hackweek will be supported by follow-on virtual 
+    working sessions to refine prototypes and complete documentation.  
   learn_more: 'projects/index.html'
 tutorials:
   description: >-
-    Tutorials general description
+    Tutorials will be offered by members of the NASA technical and research 
+    community in partnership with the University of Washington eScience 
+    Institute's data scientists and research software engineering staff. 
+    We will provide hands-on learning opportunities that focus on fundamental
+    concepts, rather than teach specific platforms and toolkits. Participants
+    will engage with real data discovery and analysis examples, moving from 
+    open-ended chat-based coding assistants to fully guardrailed gen-AI 
+    workflows that use agent skills and Model Context Protocol (MCP) Servers. 
   learn_more: 'tutorials/index.html'
 applicant_info: Still have questions? Visit our FAQ page for 
   additional details!
