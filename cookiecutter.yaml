@@ -75,6 +75,9 @@ sponsors:
   - name: eScience Institute
     website: ''
     logo_url: https://escience.washington.edu/wp-content/uploads/2015/10/Logo_eScience-stacked.png
+  - name: CryoCloud
+    website: 'https://book.cryointhecloud.com'
+    logo_url: 'https://escience.washington.edu/wp-content/uploads/2025/06/cryocloud_logo.png'
 footer:
   social:
   - icon: github
