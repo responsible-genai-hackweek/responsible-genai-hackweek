@@ -1,0 +1,19 @@
+- title: Ellie Abrahams
+  avatar: https://sdss-compute.stanford.edu/sites/g/files/sbiybj15561/files/styles/large_square/public/media/image/e7sav7lad-u07ugeqew3x-95e0a1f66656-512-1_0.jpeg?h=a7ffc51c&itok=ze5w4t2L
+  role: Research Data Scientist
+  organizations:
+    - name: Stanford University
+  bio: Ellie is the AI/GPU lead at the SDSS Center for Computation, working on frictionless workflows for distributing scientific data and deep compute across large-scale machines on-premise and in the cloud.
+      Ellie is passionate about accessible open science and reproducibility, and has a background at the intersection of statistics, computer vision, and they cryosphere.
+  expertise:
+    - distributed computing
+    - data science
+    - open science
+    - computer vision
+    - remote sensing
+  social:
+    - icon: github
+      icon_pack: fab
+      link: https://github.com/elliesch
+  user_groups:
+    - Hackweek Organizer
