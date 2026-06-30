@@ -31,7 +31,9 @@ about:
     - label: "Prerequisites:"
       bullets:
         - Programming experience in Python.
+        - Familiarity with any NASA Earth data product.
         - Some experience using generative AI tools for science.
+        - Travel funding (not provided by hackweek).
     # - label: "Key Dates:"
     #  bullets:
     #    - "Application Deadline: ?, 11:59 pm PDT"
