@@ -1,8 +1,8 @@
 repo_directory: html
 name: Responsible Gen-AI for NASA Earthdata
 apply:
-  # url: 
-  title: Applications Open Soon
+  url: https://uwashington.qualtrics.com/jfe/form/SV_3IQQROo0CZqxg7Y
+  title: Applications Open
   style: btn-success
 banner:
   description: Reproducible, Secure and Robust generative AI
