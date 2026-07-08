@@ -1,9 +1,10 @@
 - title: Don Setiawan
   avatar: https://avatars.githubusercontent.com/u/17802172?v=4
-  role: Research Software Engineer
+  role: Principal Research Software Engineer
   organizations:
-    - name: School of Oceanography
-      url: https://www.ocean.washington.edu/home/Don_Setiawan
+    - name: Scientific Software Engineering Center
+      url: https://escience.washington.edu/member/don-setiawan/
+    - name: eScience Institute
     - name: University of Washington
   bio: I am a Research Software Engineer at the University of Washington with a
     strong focus in designing, developing, and maintaining scientific data analysis
