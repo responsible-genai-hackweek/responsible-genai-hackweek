@@ -80,6 +80,8 @@ sponsors:
   - name: CryoCloud
     website: 'https://book.cryointhecloud.com'
     logo_url: 'https://escience.washington.edu/wp-content/uploads/2025/06/cryocloud_logo.png'
+  - name: NASA - Earth Science Data Systems (ESDS)
+    website: 'https://www.earthdata.nasa.gov/about'
 footer:
   social:
   - icon: github
