@@ -83,7 +83,7 @@ sponsors:
   - name: NASA - Earth Science Data Systems (ESDS)
     website: 'https://www.earthdata.nasa.gov/about'
     logo_url: 'assets/images/earthdata.png'
-    caption: 'Supported by NASA Earthdata'
+    caption: 'NASA Earthdata'
 footer:
   social:
   - icon: github

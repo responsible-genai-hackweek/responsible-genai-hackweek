@@ -7,9 +7,6 @@ tabs:
   - title: Welcome and Introduction
     description: null
     time: 9:00 - 9:15
-    leads:
-    - Anthony Arendt
-    - Mark Welden-Smith
   - title: Icebreaker 
     time: 9:15 - 9:45
     description: null
@@ -103,6 +100,6 @@ tabs:
   - title: LUNCH
     description: null
     time: 12:00 - 13:00
-  - title: Sharing outcsomes and next steps
+  - title: Sharing outcomes and next steps
     description: null
     time: 13:00 - 15:30
