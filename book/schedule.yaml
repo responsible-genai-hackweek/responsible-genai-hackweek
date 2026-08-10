@@ -1,147 +1,105 @@
-schedule_style: overview   # "overview" or "tabs"
+schedule_style: tabs   # "overview" or "tabs"
 timezone: UTC -7 (Pacific Daylight Time)
 tabs:
 - title: Day 1
-  date: Monday 27 July
+  date: Monday 24 August
   contents:
-  - title: Welcome
+  - title: Welcome and Introduction
     description: null
     time: 9:00 - 9:15
-    leads:
-    - Valentina Staneva
-    - Anthony Arendt
-  - title: Introduction to Neural Networks
+  - title: Icebreaker 
+    time: 9:15 - 9:45
     description: null
-    time: 9:15 - 10:15
-  - title: Q&A
-    description: null
-    time: 10:15 - 10:30
+  - title: Landscape of Coding Agents
+    description: Part 1  
+    time: 9:45 - 10:30
   - title: BREAK
     description: null
-    time: 10:30 - 10:45
-  - title: 'Vision: CNNs'
-    description: null
-    time: 10:45 - 11:45
-  - title: Q&A
-    description: null
-    time: 11:45 - 12:00
+    time: 10:30 - 11:00
+  - title: Landscape of Coding Agents
+    description: Part 2
+    time: 11:00 - 12:00
   - title: LUNCH
     description: null
     time: 12:00 - 13:00
-  - title: 'Sequence Models (Time series/Language): RNNs, LSTMs'
-    description: null
+  - title: Context Engineering 
+    description: AGENTS.md for existing codebase
     time: 13:00 - 14:00
-  - title: Q&A
-    description: null
-    time: 14:00 - 14:15
   - title: BREAK
     description: null
-    time: 14:15 - 14:30
-  - title: Transfer Learning
-    description: null
+    time: 14:00 - 14:30
+  - title: Context Engineering
+    description: Agent-skills for task specific contenxt
     time: 14:30 - 15:30
-  - title: Q&A
+  - title: Hands-on training
     description: null
-    time: 15:30 - 15:45
+    time: 15:30 - 17:00
 - title: Day 2
-  date: Tuesday 28 July
+  date: Tuesday 25 August
   contents:
-  - title: Introduction + Code of Conduct + Ice breaker
+  - title: Check-in and Jargon Audit
     description: null
-    time: 9:15 - 10:00
-  - title: AI Lifecycle Overview
+    time: 9:00 - 9:30
+  - title: MCP for Scientific Data
     description: null
-    time: 10:00 - 10:30
+    time: 9:30 - 10:30
   - title: BREAK
     description: null
-    time: 10:30 - 10:45
-  - title: 'Model Zoo: Transformers'
+    time: 10:30 - 11:00
+  - title: Research/Plan/Implement
     description: null
-    time: 10:45 - 12:00
+    time: 11:00 - 12:00
   - title: LUNCH
     description: null
     time: 12:00 - 13:00
-  - title: Foundation Models
+  - title: Hands-on training
     description: null
-    time: 13:00 - 14:15
-  - title: Project Introduction & Scoping
-    description: null
-    time: 14:15 - 15:45
-  - title: Project Consulting
-    description: null
-    time: 15:45 - 16:00
+    time: 13:00 - 17:00
 - title: Day 3
-  date: Wednesday 29 July
+  date: Wednesday 26 August
   contents:
-  - title: 'Scaling AI: Cloud/Cluster'
-    description: null
-    time: 9:15 - 10:00
-  - title: Resources Overview/Onboarding
-    description: null
+  - title: Sandboxing
+    description: Best practices for maintaining security
+    time: 9:00 - 10:00
+  - title: Tutorial and Discussion
+    description: gen-AI Ethics
     time: 10:00 - 10:30
   - title: BREAK
     description: null
-    time: 10:30 - 10:45
-  - title: Project work
+    time: 10:30 - 11:00
+  - title: Hands-on training
     description: null
-    time: 10:45 - 12:00
+    time: 11:00 - 12:00   
   - title: LUNCH
     description: null
     time: 12:00 - 13:00
-  - title: GenAI for Coding and Beyond
+  - title: Hands-on training
     description: null
-    time: 13:00 - 14:00
-  - title: Project work
-    description: null
-    time: 14:00 - 17:00
+    time: 13:00 - 17:00
 - title: Day 4
-  date: Thursday 30 July
+  date: Thursday 27 August
   contents:
-  - title: Communicating Results/Interpretability
-    description: null
-    time: 9:15 - 10:30
-  - title: BREAK
-    description: null
-    time: 10:30 - 10:45
-  - title: Project work
-    description: null
-    time: 10:45 - 12:00
+  - title: Tutorials
+    description: Validation and metrics
+    time: 9:00 - 12:00
   - title: LUNCH
     description: null
     time: 12:00 - 13:00
-  - title: Reproducibility Activity
+  - title: Group Discussion
     description: null
-    time: 13:00 - 14:00
-  - title: Project work
+    time: 13:00 - 13:30
+  - title: Hands-on training
     description: null
-    time: 14:00 - 17:00
+    time: 13:30 - 17:00
 - title: Day 5
-  date: Friday 31 July
+  date: Friday 28 August
   contents:
-  - title: Feedback
+  - title: Documenting learning + feedback
     description: null
-    time: 9:00 - 9:15
-  - title: Project Standup
-    description: null
-    time: 9:15 - 10:30
-  - title: BREAK
-    description: null
-    time: 10:30 - 10:45
-  - title: Project work / wrap-up
-    description: null
-    time: 10:45 - 12:00
+    time: 9:00 - 12:00
   - title: LUNCH
     description: null
     time: 12:00 - 13:00
-  - title: Project work / wrap-up
+  - title: Sharing outcomes and next steps
     description: null
-    time: 13:00 - 15:00
-  - title: Poster Session/Lightning talk session
-    description: null
-    time: 15:00 - 15:45
-  - title: Project work / wrap-up
-    description: null
-    time: 15:45 - 16:30
-  - title: Discussion & Closing
-    description: null
-    time: 16:30 - 17:00
+    time: 13:00 - 15:30

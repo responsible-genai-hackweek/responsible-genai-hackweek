@@ -618,6 +618,9 @@
                 {%- else %}
                 <img src="{{ org['logo_url'] }}" alt="{{ org['name'] }}">
                 {%- endif %}
+                {%- if org.get('caption') %}
+                <p class="text-center small">{{ org['caption'] }}</p>
+                {%- endif %}
             </div>
             {%- endfor %}
         </div>
