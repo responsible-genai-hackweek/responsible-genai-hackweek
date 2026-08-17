@@ -88,8 +88,10 @@
 .navbar-btn .btn-secondary,
 .navbar-btn .btn-secondary:disabled,
 .navbar-btn .btn-secondary.disabled {
-    background:   #2e7d12;
-    border-color: #2e7d12;
+    /*background:   #2e7d12;
+    border-color: #2e7d12; */
+    background:   #a01010;
+    border-color: #a01010;
     color:        #fff;
     text-decoration: none;
 }
@@ -98,8 +100,12 @@
 .navbar-btn .btn-secondary:active,
 .navbar-btn .btn-secondary.active,
 .show > .navbar-btn .btn-secondary.dropdown-toggle {
+/*  Uncomment the following lines to use the kelly green and/or red color for the apply button
     background:   #1a4709;
-    border-color: #1a4709;
+    border-color: #1a4709; */
+/*  When the red colors are active, there is no hover state color change as the applications are closed */    
+    background:   #a01010;
+    border-color: #a01010;
     color:        #fff;
     box-shadow:   none;
     text-decoration: none;
