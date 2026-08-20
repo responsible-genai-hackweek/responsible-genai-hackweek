@@ -4,15 +4,18 @@ tabs:
 - title: Day 1
   date: Monday 24 August
   contents:
-  - title: Welcome and Introduction
+  - title: Introduction and Icebreaker
     description: null
-    time: 9:00 - 9:15
-  - title: Icebreaker 
-    time: 9:15 - 9:45
+    time: 9:00 - 9:30
+  - title: Welcome from NASA 
+    time: 9:30 - 9:45
     description: null
+  - title: Orientation to Cryocloud and LLM Infrastructure
+    time: 9:45 - 10:15
+    description: null 
   - title: Landscape of Coding Agents
-    description: Part 1  
-    time: 9:45 - 10:30
+    time: 10:15 - 10:30
+    description: null  
   - title: BREAK
     description: null
     time: 10:30 - 11:00
@@ -22,14 +25,14 @@ tabs:
   - title: LUNCH
     description: null
     time: 12:00 - 13:00
-  - title: Context Engineering 
-    description: AGENTS.md for existing codebase
+  - title: Agents.md for existing codebase 
+    description: null
     time: 13:00 - 14:00
   - title: BREAK
     description: null
     time: 14:00 - 14:30
-  - title: Context Engineering
-    description: Agent-skills for task specific contenxt
+  - title: Agent-skills for specific context
+    description: null
     time: 14:30 - 15:30
   - title: Hands-on training
     description: null
@@ -37,16 +40,13 @@ tabs:
 - title: Day 2
   date: Tuesday 25 August
   contents:
-  - title: Check-in and Jargon Audit
+  - title: Model Context Protocol
     description: null
-    time: 9:00 - 9:30
-  - title: MCP for Scientific Data
-    description: null
-    time: 9:30 - 10:30
+    time: 9:00 - 10:30
   - title: BREAK
-    description: null
+    description: including check-in and jargon audit
     time: 10:30 - 11:00
-  - title: Research/Plan/Implement
+  - title: Workflow Patterns
     description: null
     time: 11:00 - 12:00
   - title: LUNCH
@@ -54,18 +54,24 @@ tabs:
     time: 12:00 - 13:00
   - title: Hands-on training
     description: null
-    time: 13:00 - 17:00
+    time: 13:00 - 14:00
+  - title: BREAK
+    description: including check-in and jargon audit
+    time: 14:00 - 14:30
+  - title: Hands-on training
+    descrpition: null
+    time: 14:30 - 15:00
 - title: Day 3
   date: Wednesday 26 August
   contents:
-  - title: Sandboxing
-    description: Best practices for maintaining security
-    time: 9:00 - 10:00
-  - title: Tutorial and Discussion
-    description: gen-AI Ethics
-    time: 10:00 - 10:30
-  - title: BREAK
+  - title: GenAI-ready data
     description: null
+    time: 9:00 - 10:00
+  - title: Cloudbank Resources
+    description: null
+    time: 10:00 - 10:30  
+  - title: BREAK
+    description: including best practices check-in
     time: 10:30 - 11:00
   - title: Hands-on training
     description: null
@@ -75,13 +81,28 @@ tabs:
     time: 12:00 - 13:00
   - title: Hands-on training
     description: null
-    time: 13:00 - 17:00
+    time: 13:00 - 14:00
+  - title: BREAK
+    description: null
+    time: 14:00 - 14:30
+  - title: Hands-on training
+    descrpition: null
+    time: 14:30 - 15:00
 - title: Day 4
   date: Thursday 27 August
   contents:
-  - title: Tutorials
-    description: Validation and metrics
-    time: 9:00 - 12:00
+  - title: Sandboxing, security, validation and metrics
+    description: null
+    time: 9:00 - 10:30
+  - title: BREAK
+    description: null
+    time: 10:30 - 11:00
+  - title: Responsible, trustworthy genAI Discussion
+    description: null
+    time: 11:00 - 11:30
+  - title: Hands-on training
+    description: null
+    time: 11:30 - 12:00   
   - title: LUNCH
     description: null
     time: 12:00 - 13:00
@@ -90,13 +111,31 @@ tabs:
     time: 13:00 - 13:30
   - title: Hands-on training
     description: null
-    time: 13:30 - 17:00
+    time: 13:00 - 14:00
+  - title: BREAK
+    description: null
+    time: 14:00 - 14:30
+  - title: Hands-on training
+    descrpition: null
+    time: 14:30 - 15:00
 - title: Day 5
   date: Friday 28 August
   contents:
-  - title: Documenting learning + feedback
+  - title: What's next? Openscapes cohort
     description: null
-    time: 9:00 - 12:00
+    time: 9:00 - 9:30
+  - title: Hackweek Survey
+    description: null
+    time: 9:30 - 10:00
+  - title: Hands-on learning
+    description: null
+    time: 10:00 - 10:30
+  - title: BREAK
+    description: null
+    time: 10:30 - 11:00
+  - title: Synthesis Discussion
+    description: null
+    time: 11:00 - 12:00
   - title: LUNCH
     description: null
     time: 12:00 - 13:00
