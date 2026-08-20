@@ -59,8 +59,8 @@ We will offer all tutorials based on a JupyterHub environment. Please visit the
 [Project Pythia Foundation Skills](https://foundations.projectpythia.org/foundations/getting-started-jupyter.html)
 to learn more about the components of project Jupyter.
 
-Specifically for the event, we will be using [CryoCloud](https://book.cryointhecloud.com/intro.html).
-To get started, please see the [onboarding instructions](https://book.cryointhecloud.com/content/Getting_Started.html)
+Specifically for the event, we will be using [CryoCloud](https://book.cryointhecloud.com).
+To get started, please see the [onboarding instructions](https://book.cryointhecloud.com/getting-started/)
 to gain access.
 
 Optional setup after you are logged in CryoCloud:

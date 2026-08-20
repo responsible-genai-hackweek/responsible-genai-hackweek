@@ -15,9 +15,11 @@ parse:
     github_org_url: "https://github.com/responsible-genai-hackweek"
     book_repo: "jupyterbook-template"
     website_url: "https://responsible-genai.hackweek.io/"
-    jupyterhub_url: "https://INSERT_JUPYTERHUB_URL"
-    slack_workspace_url: "https://INSERT_SLACK_URL"
-    contact_email: "INSERT_CONTACT_EMAIL@UW.COM"
+    jupyterhub_url: https://hub.cryointhecloud.com
+    # Try permalink with correct image & higher resource allocation quay.io/cryointhecloud/cryo-python-ai:latest:
+    # jupyterhub_url: "https://hub.cryointhecloud.com/hub/login?next=/hub/spawn%23fancy-forms-config=%7B%22profile%22%3A%22cpu-only%22%2C%22resource_allocation%22%3A%22mem_15_gb%22%2C%22resource_allocation%3Aunlisted_choice%22%3A%22%22%2C%22image%22%3A%22unlisted_choice%22%2C%22image%3Aunlisted_choice%22%3A%22quay.io%2Fcryointhecloud%2Fcryo-python-ai%3Alatest%22%7D"
+    slack_workspace_url: "https://cryospherecloud.slack.com/archives/C0BD44RQA6R"
+    contact_email: "escience-hackweeks@uw.edu"
     dataset: "INSERT_DATA_SET_NAME"
     anon_reporting_url: "https://INSERT_FORM_LINK"
     project_spreadsheet_url: "https://INSERT_GOOGLE_SHEET"
@@ -53,7 +55,7 @@ launch_buttons:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/uwhackweek/jupyterbook-template # Online location of your book
+  url: https://github.com/responsible-genai-hackweek/responsible-genai-hackweek # Online location of your book
   path_to_book: book  # Optional path to your book, relative to the repository root
   branch: main  # Which branch of the repository should be used when creating links (optional)
 
