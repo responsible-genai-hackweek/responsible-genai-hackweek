@@ -6,7 +6,7 @@
   bio: My work aims to improve our understanding of glacier and ocean interactions in Greenland and Antarctica. A lot of my work focuses on building new applications and improving existing ones for remote sensing in polar regions, especially for thermal infrared (heat) imagery. I am a Co-Founder and Lead Scientist for the CryoCloud cloud-computing community and platform, and help to advance scientific capabilities in open-source software development and open science.
   expertise:
     - remote sensing
-    - ice-ocean interaction
+    - glacier-ocean interaction
     - machine learning
     - open science
     - cloud-computing
@@ -16,3 +16,4 @@
       link: https://github.com/tsnow03
   user_groups:
     - Lead Hackweek Organizer
+    - CryoCloud Lead
