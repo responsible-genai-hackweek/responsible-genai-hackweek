@@ -18,8 +18,6 @@ parts:
 - caption: Tutorials
   chapters:
     - file: tutorials/index
-      sections:
-        - file: tutorials/example/tutorial-notebook
 - caption: Projects
   chapters:
     - file: projects/index
