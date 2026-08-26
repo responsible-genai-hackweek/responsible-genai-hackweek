@@ -1,0 +1,16 @@
+- title: Mike Jacobi
+  avatar: https://avatars.githubusercontent.com/u/915344?v=4
+  role: Lead Software Engineer, Skylight
+  organizations:
+    - name: Ai2
+  bio: Mike is a software engineer working on conservation-focused applications at Ai2, Skylight and OlmoEarth,
+    and increasingly on agents that support these applications.
+  expertise:
+    - Python
+    - Software Engineering
+    - Agents
+  social:
+    - icon: github
+      link: https://github.com/mikerjacobi
+  user_groups:
+    - Tutorial Lead
