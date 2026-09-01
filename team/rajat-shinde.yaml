@@ -1,0 +1,19 @@
+- title: Rajat Shinde
+  avatar: https://avatars.githubusercontent.com/u/21292545?v=4&size=64
+  role: Computer Scientist
+  organizations:
+    - name: NASA MSFC Office of Data Science and Informatics, University of Alabama in Huntsville
+  bio: Dr. Rajat Shinde is a Computer Scientist with the NASA Office of Data Science and Informatics (ODSI) and a researcher at the University of Alabama in Huntsville. His work focuses on data-centric AI, machine learning for Earth observation, and open data infrastructure. He contributes to projects involving above-ground biomass monitoring and foundation models for geoscience, and leads the development of GeoCroissant, a metadata standard for geospatial ML datasets. Rajat also co-chairs the Earth-2 Working Group within IEEE Geosciences and Remote Sensing Society (GRSS), working on AI models for digital twins. Previously, Rajat has served as a Vice President of the Open Source Geospatial Foundation (OSGeo) and was awarded the Open Data Institute (ODI) fellowship, supporting open standards and reproducibility in data science.
+  expertise:
+    - data-centric AI
+    - geoinformatics and remote sensing
+    - foundation model applications
+    - lidar data processing 
+  social:
+    - icon: github
+      link: https://github.com/omshinde
+    - icon: linkedin
+      link: https://www.linkedin.com/in/rajat-shinde/
+  user_groups:
+    - GenAI-ready data tutorial presenter
+
